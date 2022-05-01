@@ -2,6 +2,7 @@ import { useSphere } from "@react-three/cannon";
 import React from "react";
 
 export const Bullet = (props) => {
+  /** Bullet collider */
   const [sphereRef] = useSphere(() => ({
     mass: 5,
     args: 0.1,

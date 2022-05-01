@@ -2,6 +2,7 @@ import React from "react";
 import { usePlane } from "@react-three/cannon";
 
 export const Plane = () => {
+  /** Plane collider */
   const [ref] = usePlane(() => ({
     rotation: [-Math.PI / 2, 0, 0],
     position: [0, -0.25, 0],
