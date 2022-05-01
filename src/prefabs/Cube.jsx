@@ -21,7 +21,8 @@ export const Cube = (props) => {
     () =>
       niceColors[paletteIndex][
         Math.floor(Math.random() * niceColors[paletteIndex].length)
-      ]
+      ],
+    []
   );
 
   return (

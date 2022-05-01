@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export const useMouseInput = () => {
   const [keysPressed, setPressedKeys] = useState({ left: false, right: false });
