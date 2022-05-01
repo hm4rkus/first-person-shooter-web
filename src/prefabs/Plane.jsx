@@ -1,13 +1,13 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { usePlane } from "@react-three/cannon";
 
 export const Plane = () => {
-  const [ref, api] = usePlane(() => ({
+  const [ref] = usePlane(() => ({
     rotation: [-Math.PI / 2, 0, 0],
     position: [0, -0.25, 0],
     material: {
-      friction: 0.1
-    }
+      friction: 0.1,
+    },
   }));
 
   return (

@@ -14,9 +14,9 @@ export const Skybox = () => {
         "top.jpg",
         "bottom.jpg",
         "back.jpg",
-        "front.jpg"
+        "front.jpg",
       ]);
   }, [scene]);
 
-  return <> </>;
+  return <></>;
 };
